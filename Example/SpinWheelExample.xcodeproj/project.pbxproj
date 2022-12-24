@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A948BF052956DE79001E5DE4 /* SpinWheel in Frameworks */ = {isa = PBXBuildFile; productRef = A948BF042956DE79001E5DE4 /* SpinWheel */; };
 		A97F669B29546A2000C39E29 /* SpinWheelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97F669A29546A2000C39E29 /* SpinWheelApp.swift */; };
 		A97F669D29546A2000C39E29 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97F669C29546A2000C39E29 /* ContentView.swift */; };
 		A97F669F29546A2100C39E29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A97F669E29546A2100C39E29 /* Assets.xcassets */; };
 		A97F66A229546A2100C39E29 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A97F66A129546A2100C39E29 /* Preview Assets.xcassets */; };
+		A9A01F2D2956B0F400E06607 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A01F2C2956B0F400E06607 /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A97F669729546A2000C39E29 /* SpinWheel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpinWheel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A948BF022956DE6F001E5DE4 /* SpinWheel */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SpinWheel; path = ..; sourceTree = "<group>"; };
+		A97F669729546A2000C39E29 /* SpinWheelExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpinWheelExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A97F669A29546A2000C39E29 /* SpinWheelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinWheelApp.swift; sourceTree = "<group>"; };
 		A97F669C29546A2000C39E29 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A97F669E29546A2100C39E29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A97F66A129546A2100C39E29 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A9A01F2C2956B0F400E06607 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,37 +30,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A948BF052956DE79001E5DE4 /* SpinWheel in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A948BF032956DE79001E5DE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A97F668E29546A2000C39E29 = {
 			isa = PBXGroup;
 			children = (
-				A97F669929546A2000C39E29 /* SpinWheel */,
+				A99E8FD72956DE2A00A3CDED /* Packages */,
+				A97F669929546A2000C39E29 /* SpinWheelExample */,
 				A97F669829546A2000C39E29 /* Products */,
+				A948BF032956DE79001E5DE4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		A97F669829546A2000C39E29 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A97F669729546A2000C39E29 /* SpinWheel.app */,
+				A97F669729546A2000C39E29 /* SpinWheelExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A97F669929546A2000C39E29 /* SpinWheel */ = {
+		A97F669929546A2000C39E29 /* SpinWheelExample */ = {
 			isa = PBXGroup;
 			children = (
 				A97F669A29546A2000C39E29 /* SpinWheelApp.swift */,
 				A97F669C29546A2000C39E29 /* ContentView.swift */,
 				A97F669E29546A2100C39E29 /* Assets.xcassets */,
 				A97F66A029546A2100C39E29 /* Preview Content */,
+				A9A01F2C2956B0F400E06607 /* Data.swift */,
 			);
-			path = SpinWheel;
+			path = SpinWheelExample;
 			sourceTree = "<group>";
 		};
 		A97F66A029546A2100C39E29 /* Preview Content */ = {
@@ -67,12 +82,20 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		A99E8FD72956DE2A00A3CDED /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				A948BF022956DE6F001E5DE4 /* SpinWheel */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A97F669629546A2000C39E29 /* SpinWheel */ = {
+		A97F669629546A2000C39E29 /* SpinWheelExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A97F66A529546A2100C39E29 /* Build configuration list for PBXNativeTarget "SpinWheel" */;
+			buildConfigurationList = A97F66A529546A2100C39E29 /* Build configuration list for PBXNativeTarget "SpinWheelExample" */;
 			buildPhases = (
 				A97F669329546A2000C39E29 /* Sources */,
 				A97F669429546A2000C39E29 /* Frameworks */,
@@ -82,9 +105,12 @@
 			);
 			dependencies = (
 			);
-			name = SpinWheel;
+			name = SpinWheelExample;
+			packageProductDependencies = (
+				A948BF042956DE79001E5DE4 /* SpinWheel */,
+			);
 			productName = SpinWheel;
-			productReference = A97F669729546A2000C39E29 /* SpinWheel.app */;
+			productReference = A97F669729546A2000C39E29 /* SpinWheelExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +128,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A97F669229546A2000C39E29 /* Build configuration list for PBXProject "SpinWheel" */;
+			buildConfigurationList = A97F669229546A2000C39E29 /* Build configuration list for PBXProject "SpinWheelExample" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +141,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A97F669629546A2000C39E29 /* SpinWheel */,
+				A97F669629546A2000C39E29 /* SpinWheelExample */,
 			);
 		};
 /* End PBXProject section */
@@ -139,6 +165,7 @@
 			files = (
 				A97F669D29546A2000C39E29 /* ContentView.swift in Sources */,
 				A97F669B29546A2000C39E29 /* SpinWheelApp.swift in Sources */,
+				A9A01F2D2956B0F400E06607 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +293,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SpinWheel/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SpinWheelExample/Preview Content\"";
 				DEVELOPMENT_TEAM = 8STHWE4QY7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -275,6 +302,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -295,7 +323,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SpinWheel/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SpinWheelExample/Preview Content\"";
 				DEVELOPMENT_TEAM = 8STHWE4QY7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -304,6 +332,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,7 +349,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A97F669229546A2000C39E29 /* Build configuration list for PBXProject "SpinWheel" */ = {
+		A97F669229546A2000C39E29 /* Build configuration list for PBXProject "SpinWheelExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A97F66A329546A2100C39E29 /* Debug */,
@@ -329,7 +358,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A97F66A529546A2100C39E29 /* Build configuration list for PBXNativeTarget "SpinWheel" */ = {
+		A97F66A529546A2100C39E29 /* Build configuration list for PBXNativeTarget "SpinWheelExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A97F66A629546A2100C39E29 /* Debug */,
@@ -339,6 +368,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A948BF042956DE79001E5DE4 /* SpinWheel */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SpinWheel;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A97F668F29546A2000C39E29 /* Project object */;
 }
